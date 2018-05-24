@@ -1,0 +1,2 @@
+To install mpi4py with Anaconda:
+    conda install mpi4py
