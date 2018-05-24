@@ -1,5 +1,7 @@
 # The importance of copying arrays
 
+import numpy as np
+
 # This is a very short example. Copying arrays is expensive, but sometimes it is necessary.
  
 # For example, let our original array be `a`:
@@ -19,7 +21,7 @@ print("b:", b)
 
 
 # The right way
-[0] = 0 # reset a
+a[0] = 0 # reset a
 b = a.copy()
 print("a:", a)
 print("b:", b)

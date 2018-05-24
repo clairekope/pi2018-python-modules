@@ -1,5 +1,7 @@
 # # Getting statistical information from arrays
 
+import numpy as np
+
 # There are many functions in NumPy that respond the same way to function arguments:
 # - `np.sum` adds array elements
 # - `np.prod` multiplies array elements

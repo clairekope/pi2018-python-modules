@@ -47,7 +47,10 @@ print(b.dot(a))
 
 # This operation is not commutative, just as we expect.
 print(np.dot(A,a))
-print(np.dot(a,A))
+try:
+    print(np.dot(a,A))
+except:
+    print("This operation not allowed")
 
 # When using the `.dot` method, the object to which the method belongs is on the left of the equation:
 print(A.dot(a))
@@ -58,7 +61,10 @@ print(A.dot(a))
 # Once again, this operation is not commutative, as we expect.
 print(np.dot(B,A))
 print(B.dot(A))
-print(A.dot(B))
+try:
+    print(A.dot(B))
+except:
+    print("This operation not allowed")
 
 # The `dot` function is very general, and therefore slower at matrix multiplication than the specialized `matmul` function. 
 
