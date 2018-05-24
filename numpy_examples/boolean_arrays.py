@@ -20,3 +20,15 @@ print(even_elements)
 is_divisible = 
 divisible_elements = 
 print(divisible_elements)
+
+# Condition statements with Boolean arrays
+if is_even.any():
+    print("Array contains at least one even number")
+else:
+    print("Array has no even numbers")
+
+if is_even.all():
+    print("Array is entirely made of even numbers")
+else:
+    print("Some or all of the array elements are not even")
+
