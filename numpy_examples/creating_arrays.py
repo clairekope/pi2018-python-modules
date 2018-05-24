@@ -9,6 +9,9 @@ print(data_1D)
 data_2D = np.array([ [5,6.8,9], [10,3,4.5], [8.1,2,13] ])
 print(data_2D)
 
+data_3D = np.array( [[[1,2,3],[4,5,6]], [[1.2,5.3,8],[9.1,3,6]]] )
+print(data_3D)
+
 
 # All ones or zeros
 
