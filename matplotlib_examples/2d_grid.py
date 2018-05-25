@@ -1,7 +1,7 @@
 # Plotting fields on a 2D grid
 
 import numpy as np
-# use default backend
+import matplotlib; matplotlib.use('agg') # no gui
 import matplotlib.pyplot as plt
 # turn off interactive plotting
 

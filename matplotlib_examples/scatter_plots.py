@@ -1,7 +1,7 @@
 # Scatter Plots and Adding Colorbars
 
 import numpy as np
-# use default backend
+import matplotlib; matplotlib.use('agg') # no gui
 import matplotlib.pyplot as plt
 # turn off interactive plotting
 

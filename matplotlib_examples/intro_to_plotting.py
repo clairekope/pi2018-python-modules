@@ -9,7 +9,7 @@
 # **Disclaimer:** Matplotlib works differently in Jupyter notebooks than in scripts. I have done my best to make both formats behave as consistently as possible.
 
 import numpy as np
-# use default backend
+import matplotlib; matplotlib.use('agg') # no gui
 import matplotlib.pyplot as plt
 # turn off interactive plotting
 
