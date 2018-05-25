@@ -1,9 +1,14 @@
+**On your own computer**
 To install mpi4py with Anaconda:
-    `conda install mpi4py`
-
-Python commands can be executed in parallel on Blue Waters with
-    `aprun (options) python (filename).py`
-
-On your own laptop, replace `aprun` with either `mpirun` or `mpiexec` (whichever works)
+    conda install mpi4py
+To run:
+    mpiexec -np (number of processes) python (filename).py
+    
+**On Blue Waters**
+To enable mpi4py on Blue Waters:
+    module load bwpy
+    module load bwpy-mpi
+To run:
+    aprun -n (number of processes) python (filename).py
 
 Examples copied with permission from Dr. Brian W O'Shea at Michigan State Univ
